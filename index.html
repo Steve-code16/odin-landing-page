@@ -5,23 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Landing Page</title>
     <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
-      <header class="container">
-        <nav>
+      <header class="section-1">
+        <nav class="container">
           <h3>Header Logo</h3>
-          <ul>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
+          <ul class="links">
+            <li>
+              <a href="https://steve-code16.github.io" target="_blank"
+                >header link one</a
+              >
+            </li>
+            <li>
+              <a href="https://steve-code16.github.io" target="_blank"
+                >header link two</a
+              >
+            </li>
+            <li>
+              <a href="https://steve-code16.github.io" target="_blank"
+                >header link three</a
+              >
+            </li>
           </ul>
         </nav>
       </header>
 
-      <section class="container">
-        <div>
-          <div>
+      <section class="section-1">
+        <div class="container">
+          <div class="hero-box one">
             <h1>This website is awesome</h1>
             <p>
               This website has some subtext that goes here under the main title.
@@ -29,14 +47,14 @@
             </p>
             <button>Sign up</button>
           </div>
-          <div>
+          <div class="hero-box two">
             <p>this is a placeholder for an image</p>
           </div>
         </div>
       </section>
-      <section class="container">
+      <section class="box-section">
         <h2>Some random information.</h2>
-        <div>
+        <div class="container">
           <div>
             <div class="image-box"></div>
             <p>this is some subtext under an illustration or image</p>
@@ -55,8 +73,8 @@
           </div>
         </div>
       </section>
-      <section class="container">
-        <div>
+      <section class="section-2">
+        <div class="container">
           <p>
             <em
               >This is an inspiring quote, or a testimonial from a customer.
@@ -64,21 +82,24 @@
               read it. Who knows? All I know is that it looks nice.</em
             >
           </p>
-          <p>-Tor, God of Thunder</p>
+          <p class="name">-Thor, God of Thunder</p>
         </div>
       </section>
-      <section class="container">
-        <div>
-          <div>
-            <p><strong>Call to action it's time!</strong></p>
-            <p>
-              Sign up for our product by clicking that button right over there!
-            </p>
+      <section class="cta-section">
+        <div class="container">
+          <div class="blue-container">
+            <div class="">
+              <p><strong>Call to action it's time!</strong></p>
+              <p>
+                Sign up for our product by clicking that button right over
+                there!
+              </p>
+            </div>
+            <button>Sign up</button>
           </div>
-          <button>Sign up</button>
         </div>
       </section>
-      <footer class="container">
+      <footer class="section-1">
         <p>Copyright &copy; The Odin Project 2021</p>
       </footer>
     </main>
